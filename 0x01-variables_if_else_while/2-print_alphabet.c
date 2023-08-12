@@ -7,12 +7,14 @@
 int main(void)
 {
 	char c;
+
 	c = 'a';
 	/* Code iterates and increments value of c */
-	while (c <= 'z'){
+	while (c <= 'z')
+	{
 		putchar(c);
 		c++;
-		}
+	}
 	putchar('\n');
 	return (0);
 }
