@@ -3,10 +3,10 @@
  * maim - Entry point
  * Return: 0 Always (Success)
  */
-
+/* Declares value and iterate until condition is true */
 int main(void)
 {
-	/* Declares value and iterate until condition is true */
+	
 	char c;
 
 	char d;
