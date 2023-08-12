@@ -1,7 +1,7 @@
 #include <stdio.h>
 /* Task 3:  prints the alphabet in lowercase and uppercase */
 /**
- * maim - Entry point
+ * main - Entry point
  * Return: 0 Always (Success)
  */
 
