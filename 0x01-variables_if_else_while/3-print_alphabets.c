@@ -1,10 +1,10 @@
 #include <stdio.h>
+/* Task 3:  prints the alphabet in lowercase and uppercase */
 /**
  * maim - Entry point
  * Return: 0 Always (Success)
  */
 
-/* Declares value and iterate until condition is true */
 int main(void)
 {
 	char c;
