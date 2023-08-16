@@ -2,7 +2,6 @@
 #include "main.h"
 /**
  * main - print _putchar
- * by Sihle Hlophe
  * Return: 0 Always
  */
 
