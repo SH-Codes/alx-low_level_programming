@@ -1,25 +1,25 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * main - prints alphabets x10
- * Return: 0 Always
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int counter = 0;
 
-	char letter = 'a';
-
-	while (counter <= 11)
+	while (counter < 10)
 	{
+		char letter = 'a';
+
 		while (letter <= 'z')
 		{
-			_putchar(letter);
+			putchar(letter);
 			letter++;
 		}
-		_putchar('\n');
+		putchar('\n');
 		counter++;
 	}
-	_putchar('\n');
-	return (0);
+	putchar('\n');
 }
