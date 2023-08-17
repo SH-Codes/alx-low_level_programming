@@ -2,9 +2,8 @@
 /**
  * _abs - computes the absolute value if an integer
  * @n: the int checks
- * Returm: the absolute value of int
+ * Return: the absolute value of int
  */
-
 int _abs(int n)
 {
 	if (n >= 0)
