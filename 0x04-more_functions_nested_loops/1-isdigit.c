@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isdigit.c -  checks for a digit (0 through 9)
+ * _isdigit - checks for a digit (0 through 9)
  * @c: interger parameter to be checked
  * Return: 1 on if value is a digits, 0 otherwise
  * by Sihle Hlophe (SH-Codes)
