@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _isupper - checks for uppercase characters
+ * _isupper - checks for uppercase characters
  * Return: 1 on success, 0 otherwise
  * @c: interger parameter
  * by Sihle Hlophe (SH-Codes)
