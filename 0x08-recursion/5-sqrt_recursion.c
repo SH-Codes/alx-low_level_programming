@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - returns the natural sqrt root of a number
  * _sqrt_check - is the helper function that tests if i is the sqrt of n
  * @n: int type parameter
  * @i: int type parameter
@@ -20,6 +19,12 @@ int _sqrt_check(int n, int i)
 	}
 	return (_sqrt_check(n, i + 1));
 }
+
+/**
+ * _sqrt_recursion - returns the natural sqrt root of a number
+ * @n: int type parameter
+ * Return: 0 Always
+ */
 
 int _sqrt_recursion(int n)
 {
