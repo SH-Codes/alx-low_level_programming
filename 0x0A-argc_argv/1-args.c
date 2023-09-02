@@ -7,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-	(void)argv;  /* This line is to avoid the unused parameter warning/error */
+	(void)argv;
 	printf("%d\n", argc - 1);
 	return (0);
 }
