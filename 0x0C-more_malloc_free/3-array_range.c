@@ -1,5 +1,11 @@
 #include "main.h"
 #include <stdlib.h>
+/**
+ * array_range - creates an array of integers.
+ * @min: int type parameter
+ * @max: int type parameter
+ * Return: arr
+ */
 
 int *array_range(int min, int max)
 {
