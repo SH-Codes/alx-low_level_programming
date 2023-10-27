@@ -16,14 +16,14 @@ unsigned int binary_to_uint(const char *b)
 	if (!b)
 	{
 		return (0);
-        }
+	}
 
 	for (index = 0; b[index]; ++index)
-        {
+	{
 		if (b[index] != '0' && b[index] != '1')
-                {
+		{
 			return (0);
-                }
+		}
 		decimalValue = (decimalValue << 1) | (b[index] - '0');
 	}
 	return (decimalValue);
