@@ -1,16 +1,14 @@
 #!/usr/bin/python3
+"""Defines an island perimeter measuring function."""
+
 
 def island_perimeter(grid):
-    """Return the perimeter of the island described in grid.
+    """Return the perimeter of an island.
+
+    The grid represents water by 0 and land by 1.
 
     Args:
         grid (list): A list of list of integers representing an island.
-            0 represents a water zone.
-            1 represents a land zone.
-            Grid cells are connected horizontally/vertically (not diagonally).
-            Grid is rectangular, width and height don’t exceed 100.
-            Grid is completely surrounded by water, and there is one island (or nothing).
-            The island doesn’t have “lakes” (water inside that isn’t connected to the water around the island).
     Returns:
         The perimeter of the island defined in grid.
     """
