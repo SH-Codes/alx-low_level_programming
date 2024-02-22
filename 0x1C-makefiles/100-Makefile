@@ -12,9 +12,6 @@ all: m.h $(NAME)
 $(NAME): $(OBJ)
     $(CC) $(OBJ) -o $@
 
-%.o: %.c
-    $(CC) $(CFLAGS) -c $< -o $@
-
 m.h:
     @echo "Error: m.h header file is missing."
     @exit 1
